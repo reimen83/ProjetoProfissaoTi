@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>DevWorking</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light"  style="border-radius: 10px;">
+		<a class="navbar-brand" href="index.html">DevWorking</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				
+				<li class="nav-item active">
+					<a class="nav-link" href="desenvolvedorweb.html">Web|</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="cientistadedados.html">Dados|</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="engenheirodesoftware.html">Software|</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="analistadeseguranca.html">Segurança|</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="administradorredes.html">Redes|</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="contato.html">Contato|</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="https://facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="https://twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="https://instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+    <div class="coluna container">
+      <h2 class="text-center">Formulário</h2>
+      <hr>
+    </div>
+   
+
+    <div class="container">
+        <form>
+            <div class="form-row">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Digite o seu primeiro Nome" />
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Digite o seu Sobrenome" />
+              </div>
+            </div>
+            <br>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <!-- <label for="inputEmail4">Email</label> -->
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Digite aqui seu Email">
+                </div>
+                <div class="form-group col-md-6">
+                  <!-- <label for="inputPassword4">Senha</label> -->
+                  <input type="fone" class="form-control" id="inputFone" placeholder="Digite Seu Telefone">
+                </div>
+              </div>
+              <div class="form-row">
+              <div class="form-group col-md-4">
+                <!-- <label for="inputAddress">Endereço</label> -->
+                <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Expedicionarios">
+              </div>
+              <div class="form-group col-md-4">
+                <!-- <label for="inputAddress">Endereço</label> -->
+                <input type="text" class="form-control" id="inputAddress" placeholder="Digite o Número">
+              </div>
+              <div class="form-group col-md-4">
+                <!-- <label for="inputAddress">Endereço</label> -->
+                <input type="text" class="form-control" id="inputAddress" placeholder="Digite o Bairro">
+              </div>
+      
+              </div>
+              <!-- <div class="form-group">
+                <label for="inputAddress2">Endereço 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
+              </div> -->
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <!-- <label for="inputCity">Cidade</label> -->
+                  <select id="inputEstado" class="form-control">
+                    <option selected>Selecione a Cidade...</option>
+                    <option>Rio Branco</option>
+                    <option>Belém</option>
+                    <option>Goiania</option>
+                    <option>Rio de Janeiro</option>
+                    <option>São Paulo</option>
+                    <option>Belo Horizonte</option>
+                    <option>Florianópolis</option>
+                    <option>Porto Alegre</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-4">
+                  <!-- <label for="inputEstado">Estado</label> -->
+                  <select id="inputEstado" class="form-control">
+                    <option selected>Escolher Seu Estado...</option>
+                    <option>Acre</option>
+                    <option>Pará</option>
+                    <option>Goiás</option>
+                    <option>Rio de Janeiro</option>
+                    <option>São Paulo</option>
+                    <option>Minas Gerais</option>
+                    <option>Santa Catarina</option>
+                    <option>Rio Grande do Sul</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <!-- <label for="inputCEP">CEP</label> -->
+                  <input type="text" class="form-control" id="inputCEP" placeholder="Digite seu CEP">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-2">
+                  <!-- <label for="inputCity">Cidade</label> -->
+                  <input type="date" class="form-control" id="inputDate" placeholder="DataNascimento">
+                </div>
+                <div class="form-group col-md-4">
+                  <!-- <label for="inputEstado">Estado</label> -->
+                  <select id="inputEstado" class="form-control">
+                    <option selected>Escolher sua Escolaridade...</option>
+                    <option>Ensino Fundamental Completo</option>
+                    <option>Ensino Fundamental 2 Completo</option>
+                    <option>Ensino Médio Completo</option>
+                    <option>Graduação Completa</option>
+                    <option>Pós Graduação Completa</option>
+                    <option>Mestrado Completo</option>
+                    <option>Doutorado Completo</option>             
+                  </select>
+                </div>
+                <div class="form-group col-md-4">
+                  <!-- <label for="inputEstado">Estado</label> -->
+                  <select id="inputEstado" class="form-control">
+                    <option selected>Escolher seu Estado Civil..</option>
+                    <option>Solteiro(a)</option>
+                    <option>Casado(a)</option>
+                    <option>Separado(a)</option>
+                    <option>Viuvo(a)</option>
+                    <option>Amasiado(a)</option>
+                    <option>TicoTico no Fubá</option>
+                               
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <!-- <label for="inputEstado">Estado</label> -->
+                  <select id="inputEstado" class="form-control">
+                    <option selected>Escolher sua área de atuação.</option>
+                    <option>Comércio</option>
+                    <option>Indústria</option>
+                    <option>Serviços</option>
+                                             
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                
+                <div class="form-group col-xl-10">
+                  <label for="exampleFormControlTextarea1">Observações</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Digite suas Observações aqui"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Aceito os Termos
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          
+          </form>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/f64dcfecb8.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
